@@ -1,0 +1,70 @@
+body {
+  background-color: #c4bbb4;
+
+  padding: 100px;
+}
+
+img {
+  width: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3D3D3D;
+}
+
+.todo-list {
+  background-color: #968f8a;
+  padding: 20px;
+  border: 1px solid #c4bbb4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #3D3D3D;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-button {
+  margin: 10px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #3D3D3D;
+  border: 1px solid #c4bbb4;
+
+  color: #fff;
+  padding: 3px 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #968f8a;
+}
+input {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.link {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
