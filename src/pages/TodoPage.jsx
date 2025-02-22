@@ -34,7 +34,7 @@ function TodoPage() {
       
       const deleteTodo = (id) => {
         setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
-        setDeletedTodos((prevDeletedTodos) => [...prevDeletedTodos, id]);
+        // setDeletedTodos((prevDeletedTodos) => [...prevDeletedTodos, id]);
       };
     
       const filteredTodos = todos.filter((todo) => {

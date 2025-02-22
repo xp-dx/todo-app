@@ -35,7 +35,6 @@ const DndPage = () => {
     const sourceItems = [...sourceColumn.items];
     const destItems = [...destColumn.items];
 
-    // Перемещение внутри одной колонки
     if (source.droppableId === destination.droppableId) {
       const [removed] = sourceItems.splice(source.index, 1);
       sourceItems.splice(destination.index, 0, removed);
@@ -44,7 +43,6 @@ const DndPage = () => {
         [source.droppableId]: { ...sourceColumn, items: sourceItems },
       });
     } else {
-      // Перемещение между колонками
       const [removed] = sourceItems.splice(source.index, 1);
       destItems.splice(destination.index, 0, removed);
 
